@@ -1,0 +1,23 @@
+/* 태그로 스타일 적용하기 */
+h1 {
+  color: red;
+}
+
+/* 
+class로 스타일 적용하기
+* 여러 요소에 동일한 스타일을 적용할 때 사용
+*/
+.text {
+  color: blue;
+}
+
+/* 
+id로 스타일 적용하기
+* 특정 요소에 스타일을 적용할 때 사용
+* 한 페이지에서 동일한 ID를 가진 요소가 여러 개 있을 수 없습니다.
+*/
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
